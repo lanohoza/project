@@ -11,5 +11,8 @@ export class DeliveryPointComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  DeliveryList=["Delivery1", "Delivery2", "Delivery3", "Delivery4"]
+  lat =36.7525 ;
+  long = 3.04197;
 
 }

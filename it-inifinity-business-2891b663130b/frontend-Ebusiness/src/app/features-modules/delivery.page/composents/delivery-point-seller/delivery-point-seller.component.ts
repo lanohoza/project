@@ -11,5 +11,6 @@ export class DeliveryPointSellerComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  lat =36.7525 ;
+  long = 3.04197;
 }

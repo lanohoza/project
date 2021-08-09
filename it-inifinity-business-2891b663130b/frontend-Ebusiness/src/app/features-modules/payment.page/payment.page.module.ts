@@ -12,6 +12,7 @@ import { PaymentMsgErrorComponent } from './composents/payment.msg.error/payment
 import { PaymentMsgSuccessComponent } from './composents/payment.msg.success/payment.msg.success.component';
 import { DeliveryOrderComponent } from './composents/delivery.order/delivery.order.component';
 import { MaterialModule } from '@shared/modules/material-module';
+
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({

@@ -11,5 +11,13 @@ export class DeliveryHomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
+ 
+
+  CommunesList = [
+    "El-oued","Robbah","Oued elalenda","Batna"
+  ];
+  WilayaList = ["El-oued","Batna","Khanchela","Biskra","Alger"];
+   
+  
 
 }
