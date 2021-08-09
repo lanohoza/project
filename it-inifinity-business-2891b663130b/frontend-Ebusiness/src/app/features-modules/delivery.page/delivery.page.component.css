@@ -1,0 +1,30 @@
+.auto {
+    margin-top: 20%;
+  }
+  
+  .card-text {
+    font-weight: bold;
+  }
+  
+  .icon {
+    color: #222121;
+  }
+  
+  .icon:hover {
+    color: #0053F0;
+  }
+  
+  .icon i:hover {
+    cursor: pointer;
+  }
+  
+  .btn {
+    border-radius: 30px;
+  }
+  
+  .btn:hover {
+    background-color: #0053F0;
+    border-radius: 30px;
+    color: #ffff;
+  }
+  /*# sourceMappingURL=deliveryfirstpage.component.css.map */

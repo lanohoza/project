@@ -1,0 +1,35 @@
+<div class="container ">
+    <div class="row  justify-content-center auto ">
+
+        <!-------------cart 1-->
+        <div class="card text-center  mx-2 my-2" style="width: 18rem;">
+            <div class="card-body ">
+                <h1 class="icon"><i routerLink="domicile" class="fas fa-shipping-fast"></i></h1>
+
+                <p class="card-text">Livraison a domicile .</p>
+                <a routerLink="domicile" class="btn mt-4">L'étape suivante</a>
+            </div>
+        </div>
+        <!-----------cart 2-->
+        <div class="card text-center  mx-2 my-2" style="width: 18rem;">
+            <div class="card-body ">
+                <h1 class="icon"><i routerLink="Livraison" class="fas fa-map-marked-alt"></i></h1>
+
+                <p class="card-text">Livraison a point de livraison . </p>
+                <a routerLink="Livraison" class="btn mt-4">L'étape suivante</a>
+            </div>
+        </div>
+        <!----cart 3--------->
+        <div class="card text-center  mx-2 my-2" style="width: 18rem;">
+            <div class="card-body ">
+                <h1 class="icon"><i routerLink="LivraisonVendeur" class="fas fa-store"></i></h1>
+
+                <p class="card-text">Livraison a Point de livraison chez le vendeur.</p>
+                <a routerLink="LivraisonVendeur" class="btn ">L'étape suivante</a>
+            </div>
+        </div>
+    </div>
+</div>
+<app-delivery-home></app-delivery-home>
+<app-delivery-point></app-delivery-point>
+<app-delivery-point-seller></app-delivery-point-seller>
